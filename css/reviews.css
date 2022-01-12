@@ -1,0 +1,61 @@
+.section__reviews{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(pink, rgb(255, 246, 163));
+}
+
+.slider-slide-icon{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.slider-slide-icon img{
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 8px;
+    min-height: 280px;
+    height: 100%;
+    padding: 15px;
+    background-color: rgba(233, 233, 233, 0.3);
+}
+
+.slider-slide-text{
+    max-width: 350px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.slider-slide-name{
+    margin-top: 10px;
+}
+
+.slick-track{
+    display: flex;
+    justify-content: stretch;
+}
+
+.slider-slide-wrap{
+    margin-right: 20px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slick-slide {
+    height: auto;
+    min-height: 100%;
+}

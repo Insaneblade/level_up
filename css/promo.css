@@ -1,0 +1,49 @@
+.section__promo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgb(255, 246, 163), rgb(251, 146, 255));
+}
+
+.section__promo-wrap_specifications_list{
+    list-style-type: none;
+}
+
+.section__promo-wrap-foto-doctor{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.section__promo-foto,
+.section__promo-desc{
+    flex: 1 0 50%;
+}
+
+.section__promo-wrap_specifications{
+    margin-top: 50px;
+}
+
+.section__promo-wrap_specifications_list-item{
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.big-size{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.animacia{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/discount.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1000;
+    display: inline-block;
+    border-radius: 100%;
+}

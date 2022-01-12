@@ -1,0 +1,21 @@
+.animacia{
+    animation-duration: 2s;
+    animation-name: discont;
+    animation-iteration-count: infinite;
+}
+
+@keyframes discont{
+    0%{
+        width: 70px;
+        height: 70px;
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+        
+    }
+    100%{
+        width: 70px;
+        height: 70px;
+    }
+}

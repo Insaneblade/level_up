@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    max-width: 1430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-cont-sb{
+    justify-content: space-between;
+}
+
+.align-items-c{
+    align-items: center;
+}
+
+.section__hero_product-wrap-list-item{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.header__nav{
+    display: none;
+}
+
+.menu-burger__header{
+    display: none;
+}
+
+.section__hero_product-wrap-list{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 15px;
+}
